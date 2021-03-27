@@ -39,6 +39,11 @@ module.exports = {
             lessOptions: {
               javascriptEnabled: true,
               modifyVars: require('../src/styles/theme'),
+              modifyVars: {
+                'switch-height': '20px',
+                'switch-bg': '#b5b5b5',
+                'switch-min-width': '50px'
+              }
             },
           },
         },

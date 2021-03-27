@@ -26,6 +26,9 @@
         "tsx": "never"
       }
     ],
+    "prettier/prettier": ["error", {
+     "endOfLine":"auto"
+   }],
     // note you must disable the base rule as it can report incorrect errors
     "no-use-before-define": 0
   }
